@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Maps</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+ 
+<body>
+  <div id="p1" class="mapdiv">
+    
+  </div>
+</body>
+
+
+<form id="sizeForm">
+  <div class="size">
+    <div class="size-heading">
+      <h3 class="size-title">Size</h3>
+    </div>
+    <div class="size-body">
+      <ul>
+        <li>
+          <label><input type="radio" name="sizeOptions" value="0.1"><span>0.1</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="sizeOptions" value="0.3"><span>0.3</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="sizeOptions" value="0.5"><span>0.5</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="sizeOptions" value="0.8"><span>0.8</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="sizeOptions" value="1"><span>1</span></label>
+        </li>
+      </ul>
+    </div>
+    <div class="size-footer">
+      <button type="submit">Resize</button>
+    </div>
+  </div>
+</form>
+ 
+<script src="index.js"></script>
+
+
+</html>
